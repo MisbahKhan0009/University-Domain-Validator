@@ -1,0 +1,43 @@
+body {
+  background-image: url(/resources/images/background.svg);
+  background-repeat: no-repeat;
+}
+
+.header-section {
+  width: 60vw;
+}
+
+.inside-div {
+  width: 80%;
+  font-family: "Antique Olive", sans-serif;
+}
+.outside-div {
+  height: 10vw;
+  width: 57vw;
+  background: rgba(255, 249, 243, 0.15);
+  box-shadow: 0 8px 32px 0 #fff9f321;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 20px;
+}
+
+.left-form {
+  width: 50vw;
+}
+
+#side-portion {
+
+    height: 15vw;
+    
+}
+
+#input-field {
+  height: 40px;
+  width: 350px;
+}
+
+#search-btn {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Domain Validator</title>
+    <!-- font -->
+    <link
+      href="https://fonts.cdnfonts.com/css/antique-olive"
+      rel="stylesheet"
+    />
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="resources/styles/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="resources/scripts/script.js" defer></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              olive: "#414B3B",
+              nearWhite: "#FFF9F3",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="shortcut icon"
+      href="resources/images/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <header class="header-section mx-auto mt-5">
+      <div class="outside-div flex items-center justify-center">
+        <div class="text-olive mx-auto bg-nearWhite rounded-lg inside-div">
+          <h1 class="text-4xl text-center p-5">University Domain Validator</h1>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends -->
+    <main>
+      <!-- Left form starts -->
+      <section class="mx-auto flex">
+        <div
+          id="side-portion"
+          class="flex flex-col m-5 items-center justify-center left-form my-8 bg-nearWhite"
+        >
+          <input
+            id="input-field"
+            type="text"
+            placeholder="Enter Your University Name"
+            class="p-3 rounded"
+          />
+          <button
+            id="search-btn"
+            class="p-5 bg-nearWhite text-olive text-xl font-bold flex flex-col align-center justify-center rounded-lg text-center"
+          >
+            Search
+          </button>
+        </div>
+
+        <!-- Left form ends -->
+        <!-- rRght form starts -->
+        <div
+          id="side-portion"
+          class="flex flex-col m-5 items-center justify-center left-form my-8 bg-nearWhite"
+        >
+          <input
+            id="input-field"
+            type="text"
+            placeholder="Enter Your University Name"
+            class="p-3 rounded"
+          />
+          <button
+            id="search-btn"
+            class="p-5 bg-nearWhite text-olive text-xl font-bold flex flex-col align-center justify-center rounded-lg text-center"
+          >
+            Search
+          </button>
+        </div>
+      </section>
+
+      <!-- Right form ends -->
+    </main>
+  </body>
+</html>
