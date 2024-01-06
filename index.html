@@ -42,48 +42,65 @@
     </header>
     <!-- Header Ends -->
     <main>
-      <!-- Left form starts -->
-      <section class="mx-auto flex">
+      <section class="mx-auto mt-8 flex items-center justify-center">
+        <!-- Left form starts -->
+
         <div
           id="side-portion"
-          class="flex flex-col m-5 items-center justify-center left-form my-8 bg-nearWhite"
+          class="flex flex-col m-5 items-center justify-center side-form my-8 bg-nearWhite"
         >
           <input
-            id="input-field"
+            id="university-input-field"
             type="text"
             placeholder="Enter Your University Name"
-            class="p-3 rounded"
+            class="input-field p-3 rounded-lg text-olive bg-nearWhite"
           />
           <button
-            id="search-btn"
-            class="p-5 bg-nearWhite text-olive text-xl font-bold flex flex-col align-center justify-center rounded-lg text-center"
+            id="university-search-btn"
+            class="search-btn p-5 text-olive bg-nearWhite text-xl font-bold flex flex-col align-center justify-center rounded-lg text-center"
           >
             Search
           </button>
         </div>
 
         <!-- Left form ends -->
-        <!-- rRght form starts -->
+        <!-- Right form starts -->
+
         <div
           id="side-portion"
-          class="flex flex-col m-5 items-center justify-center left-form my-8 bg-nearWhite"
+          class="flex flex-col m-5 items-center justify-center side-form my-8 bg-nearWhite"
         >
           <input
-            id="input-field"
+            id="domain-input-field"
             type="text"
-            placeholder="Enter Your University Name"
-            class="p-3 rounded"
+            placeholder="Enter Your Academic Email"
+            class="input-field p-3 rounded-lg text-olive bg-nearWhite"
           />
           <button
-            id="search-btn"
-            class="p-5 bg-nearWhite text-olive text-xl font-bold flex flex-col align-center justify-center rounded-lg text-center"
+            id="domain-search-btn"
+            class="search-btn p-5 text-olive bg-nearWhite text-xl font-bold flex flex-col align-center justify-center rounded-lg text-center"
           >
             Search
           </button>
         </div>
-      </section>
 
-      <!-- Right form ends -->
+        <!-- Right form ends -->
+      </section>
+      <!-- Result Showing Starts -->
+      <!-- not found -->
+      <section>
+        <div
+          id="no-result"
+          class="text-olive mx-auto bg-nearWhite rounded-lg lower-div hidden"
+        >
+          <h2 class="text-3xl text-center p-5">Sorry! University Not Found.</h2>
+        </div>
+      </section>
+      <!-- result found -->
+      <section id="result-field">
+        
+      </section>
+      <!-- Result Showing Ends -->
     </main>
   </body>
 </html>

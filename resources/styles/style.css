@@ -11,32 +11,40 @@ body {
   width: 80%;
   font-family: "Antique Olive", sans-serif;
 }
+.lower-div {
+  width: 50vw;
+  font-family: "Antique Olive", sans-serif;
+  margin-top: 20px;
+}
 .outside-div {
   height: 10vw;
   width: 57vw;
   background: rgba(255, 249, 243, 0.15);
-  box-shadow: 0 8px 32px 0 #fff9f321;
+  /* box-shadow: 0 8px 32px 0 #fff9f321; */
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(15.5px);
   border-radius: 20px;
 }
 
-.left-form {
-  width: 50vw;
+.side-form {
+  width: 40vw;
 }
 
 #side-portion {
-
-    height: 15vw;
-    
+  height: 15vw;
+  background: rgba(255, 249, 243, 0.15);
+  /* box-shadow: 0 8px 32px 0 #fff9f321; */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 20px;
 }
 
-#input-field {
+.input-field {
   height: 40px;
   width: 350px;
 }
 
-#search-btn {
+.search-btn {
   height: 30px;
   width: 100px;
   margin-top: 10px;
